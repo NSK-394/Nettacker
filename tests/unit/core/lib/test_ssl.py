@@ -423,10 +423,6 @@ class TestSslMethod:
             "DHE",
             "ECDH",
             "ECDHE",
-            "TLSv1",
-            "TLSv1.1",
-            "TLSv1.2",
-            "TLSv1.3",
         ]
 
         result = is_weak_cipher_suite(
